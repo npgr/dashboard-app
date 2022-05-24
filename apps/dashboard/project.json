@@ -12,7 +12,7 @@
         "outputPath": "dist/apps/dashboard",
         "index": "apps/dashboard/src/index.html",
         "baseHref": "/",
-        "main": "apps/dashboard/src/main.tsx",
+        "main": "apps/dashboard/src/index.tsx",
         "polyfills": "apps/dashboard/src/polyfills.ts",
         "tsConfig": "apps/dashboard/tsconfig.app.json",
         "assets": [
