@@ -7,6 +7,7 @@ module.exports = {
     join(__dirname, 'src/**/*!(*.stories|*.spec).{ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
   ],
+  important: '#root',
   darkMode: 'class',
   theme: {
     fontFamily: {
@@ -29,6 +30,10 @@ module.exports = {
       },
       borderColor: {
         color: 'rgba(0, 0, 0, 0.1)',
+      },
+      colors: {
+        primary: '#61DAFB',
+        secondary: '#282C34',
       },
       width: {
         400: '400px',
